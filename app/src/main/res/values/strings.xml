@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Trigger.Systems</string>
+    <string name="msg_register_progressBar">Registering...</string>
+    <string name="msg_update_profile_progressBar">Updating...</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="menu_fragment_item_details">Details</string>
+    <string name="menu_fragment_item_general">General</string>
+    <string name="menu_fragment_item_program">Program</string>
+    <string name="menu_fragment_item_next">Next</string>
+    <string name="menu_fragment_item_log">Log</string>
+    <string name="menu_fragment_item_configuration">Configuration</string>
+    <string name="password">Password</string>
+    <string name="msg_error_register">Server Error, please try again later.</string>
+    <string name="nav_sub_menu">Sub Menu</string>
+    <string name="item_menu_profile">Profile</string>
+    <string name="msg_update_success_profile">Profile updated</string>
+    <string name="msg_update_error_profile">Error updating profile</string>
+    <string name="item_menu_edit_profile">Edit Profile</string>
+    <string name="item_menu_logout">Logout</string>
+    <string name="item_menu_notification">Notifications</string>
+    <string name="item_menu_requests">Requests</string>
+    <string name="item_menu_en_language">EN</string>
+    <string name="item_menu_pt_language">PT</string>
+    <string name="nav_sub_menu_item01">Sub Menu Item 1</string>
+    <string name="nav_sub_menu_item02">Sub Menu Item 2</string>
+    <string name="drawer_header_text">Drawer Header</string>
+    <string name="second_activity_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur diam id aliquam scelerisque. Donec ultrices lacus vel dignissim pharetra. Vivamus pharetra augue quis rhoncus placerat. Sed ultricies at risus non cursus. Nam rutrum leo nec placerat consectetur. Vestibulum feugiat eleifend diam, nec interdum augue tincidunt sit amet. Praesent feugiat est auctor lacus consectetur, vitae pellentesque dolor laoreet.</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_RepeatePassword">Password did not match</string>
+    <string name="msg_register">Dont have a account?Register Now</string>
+    <string name="btn_sign_up">REGISTER</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="repeat_password">Repeat password!</string>
+    <string name="err_msg_email">Fill the email field</string>
+    <string name="err_msg_email_exists">Email already registed! Please Log in!</string>
+    <string name="msg_sucess_registration">Thank you for registering to Wetrig. You should receive a confirmation email shortly with your user name and password.</string>
+    <string name="err_msg_password">Please fill the password field!</string>
+    <string name="err_msg_Repeatepassword">Confirm password!</string>
+    <string name="err_msg_ConfirmPassword">The passwords did not match...</string>
+    <string name="login">Autenticating...</string>
+    <string name="msg_error_login">Email not registed yet! Please Sign up!</string>
+    <string name="msg_error_login_access">Wrong email or password.</string>
+    <string name="msg_error_server_connection">Problem connecting to the server...</string>
+    <string name="first_question">How do discovered Trigger.Systems?.</string>
+    <string name="second_question">How do you want to register?.</string>
+    <string name="err_msg_first_question">Please Answer to first question!</string>
+    <string name="err_msg_second_question">Please Answer to second question!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="birth_date">Birth_Date</string>
+    <string name="Bio">Bio</string>
+    <string name="Gender">Gender</string>
+    <string name="Save">Save</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="change">Change image...</string>
+    <string name="type">Type</string>
+    <string name="description">Description</string>
+    <string name="address">Address</string>
+    <string name="owner">Owner</string>
+    <string name="addNew">Add a new</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+    <string name="newFolder">NEW FOLDER</string>
+    <string name="Enter_name">Enter a name</string>
+    <string name="Folder">Folder</string>
+    <string name="System">System</string>
+    <string name="Gateway">Gateway</string>
+    <string name="Review">Your review</string>
+    <string name="Rating">Your rating</string>
+    <string name="Submit">Submit</string>
+    <string name="clientR">Client reviews</string>
+    <string name="Location">Location</string>
+    <string name="Public">Public</string>
+    <string name="AddSys">Add System</string>
+    <string name="AddGat">Add Gateway</string>
+    <string name="close">Close </string>
+    <string name="ChoseCat">Chose a Category </string>
+    <string name="addSys_sucess">System added</string>
+    <string name="addSys_error_exists">System name already exists</string>
+    <string name="serverError">Server error, please try later</string>
+    <string name="addRating_success">Server error, please try later</string>
+    <string name="empty_location">Please fill localization field</string>
+    <string name="empty_name">Please fill name field</string>
+    <string name="delete_system">System deleted</string>
+    <string name="update_system">System updated</string>
+    <string name="no_devices">You have no devices</string>
+    <string name="budget">General Water Budget</string>
+    <string name="Run">Run</string>
+    <string name="Stop">Stop</string>
+    <string name="localization_error">Localization field empty</string>
+    <string name="StartAuto">Schedule mode started</string>
+    <string name="StartManual">Manual mode started</string>
+    <string name="scheduleP">Check schedule programs, for today, tomorrow and after!</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="after">After</string>
+
+
+
+
+
+
+
+
+
+</resources>

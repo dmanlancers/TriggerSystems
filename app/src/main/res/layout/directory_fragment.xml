@@ -1,0 +1,110 @@
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/main_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/directory_info">
+
+        <ImageView android:id="@+id/sys"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:src="@drawable/system_5"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView"
+            android:layout_toStartOf="@+id/textView" />
+
+
+        <ImageView android:src="@drawable/hardware_5"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:id="@+id/gat"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/menu_green"
+            android:layout_alignStart="@+id/menu_green" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="@string/System"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/gat"
+        android:layout_toLeftOf="@+id/menu_green"
+        android:layout_toStartOf="@+id/menu_green" />
+
+ <ExpandableListView
+        android:id="@+id/mainList"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:cacheColorHint="#999"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:menu_icon="@drawable/fab_add"
+        app:menu_animationDelayPerItem="0"
+        app:menu_colorNormal="#43A047"
+        app:menu_colorPressed="#2E7D32"
+        app:menu_colorRipple="#ff6666"
+        app:menu_labels_maxLines="2"
+        app:menu_labels_ellipsize="end">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/system"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_done"
+            app:fab_label="@string/AddSys"
+            style="@style/MenuButtonsSmall.Green" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/gateway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_done"
+            app:fab_label="@string/AddGat"
+            style="@style/MenuButtonsSmall.Green" />
+
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>

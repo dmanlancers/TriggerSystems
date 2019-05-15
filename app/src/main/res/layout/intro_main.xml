@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/videoviewLayout">
+
+    <VideoView android:id="@+id/videoview"
+        android:layout_width="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="fill_parent">
+    </VideoView>
+
+</RelativeLayout>
+
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="2dip">
+
+<TextView
+
+    android:id="@+id/text_dialog"
+    android:textSize="24dp" android:layout_marginTop="10dp"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_gravity="center"/>
+
+
+
+<RatingBar
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:clickable="true"
+    android:id="@+id/dialog_ratingbar" android:layout_gravity="center"
+    android:numStars="5" android:stepSize="1.0" android:rating="2"
+    android:isIndicator="false"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@+id/rank_dialog_button1"
+    android:layout_toEndOf="@+id/rank_dialog_button1" />
+
+<TextView
+
+    android:id="@+id/text_dialog2"
+    android:textSize="24dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"/>
+
+<Button android:id="@+id/rank_dialog_button1"
+    android:layout_height="50dp"
+    android:text="Update"
+    android:focusable="false"
+    android:textColor="#FFF8C6"
+    android:textSize="20dip"
+    android:layout_width="50dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+<Button android:id="@+id/rank_dialog_button"
+    android:layout_height="50dp"
+    android:text="Update"
+    android:focusable="false"
+    android:textColor="#FFF8C6"
+    android:textSize="20dip"
+    android:layout_width="50dp"
+    android:layout_marginTop="260dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignRight="@+id/dialog_ratingbar"
+    android:layout_alignEnd="@+id/dialog_ratingbar" />
+
+
+</RelativeLayout>-->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/cancel"
+        android:layout_gravity="right"
+        android:src="@drawable/close"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:id="@+id/catTitle"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_ratingbar"
+        android:layout_gravity="center_horizontal"
+        android:numStars="5"
+        android:clickable="false"
+
+        android:isIndicator="true"
+        android:progressTint="#1BB5A9"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESC"
+        android:id="@+id/txtCatDescription"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"/>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp">
+
+    <Button
+
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="REVIEW"
+        android:background="#1BB5A9"/>
+
+    <Button
+
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="NEXT"
+        android:background="#1BB5A9"
+        android:layout_marginLeft="10dp"/>
+    </TableRow>
+    </LinearLayout>
+
+
+
+</LinearLayout>

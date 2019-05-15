@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimaryDark"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageUser"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.58"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_menu_edit_profile"
+        android:id="@+id/profile"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_gravity="right" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_menu_logout"
+        android:id="@+id/logout"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+</LinearLayout>

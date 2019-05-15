@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+<RelativeLayout
+    android:id="@+id/rlay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+        <RelativeLayout
+            android:id="@+id/budgetLay"
+            android:layout_width="187dp"
+            android:layout_height="70dp"
+            android:background="#1BB5A9"
+            android:gravity="right"
+            android:layout_below="@+id/buttonsLay"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp">
+
+
+                        <TextView
+                            android:id="@+id/txtBudget"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/budget"
+                            android:layout_marginRight="15dp"
+                            android:textColor="#FFFF"
+                            android:textSize="15sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true">
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/inputBudget"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="25sp"
+                            android:layout_below="@+id/txtBudget"
+                            android:layout_alignLeft="@+id/txtBudget"
+                            android:background="#FFF"
+                            android:layout_marginLeft="55dp"
+                            android:layout_marginTop="10dp"
+                            >
+                        </EditText>
+                </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/buttonsLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+                <Button
+                    android:id="@+id/run"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Run"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/stop"
+                    android:layout_toStartOf="@+id/stop"
+
+                    android:layout_marginRight="10dp"
+
+                    >
+
+                </Button>
+
+                <Button
+                    android:id="@+id/stop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Stop"
+                    android:layout_alignTop="@+id/run"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    >
+                </Button>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/detailsLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+                    android:id="@+id/sysTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ONDE"
+                    android:layout_below="@+id/sysLogo"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="15sp">
+                </TextView>
+
+            <ImageView
+                    android:id="@+id/sysLogo"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@mipmap/ic_launcher"
+                    >
+                </ImageView>
+        </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/budgetLay"
+        android:id="@+id/devices_info"
+        android:layout_marginTop="50dp"
+        android:padding="20dp">
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>
